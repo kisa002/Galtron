@@ -60,6 +60,9 @@ def runGame():
 
 	runGame = True
 
+	pg.mixer.music.load('biVok.mp3')
+	pg.mixer.music.play(-1, 0.0)
+        
 	#Set the two while loops to start mainMenu first
 	while runGame:
 		#Set to true to run main game loop
